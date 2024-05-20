@@ -1,30 +1,20 @@
 # Syllabus - CSE 34468 - Internet of Things Summer 2024
 
-The following is a draft syllabus that may change prior to the start of the course.  The late policy though is fixed (25% / late day)
-
-## Motivation
+## Course Motivation
 
 Over the past decade, there has been tremendous growth in the availability of highly capable low-cost devices capable of sensing and actuating our environment under the guise of Cyber-Physical Systems (CPS). When coupled with improvements in wireless communications, the Internet of Things (IoT) has emerged with the potential for transforming our modern society, instrumenting everything from ourselves via wearable computing (smart watches, health sensors) to our houses (home automation) to our environment (smart cities) to transportation (driverless cars).
 
 ## Overview
 
-This course will introduce the basic building blocks of the Internet of Things (IoT).
-The course will introduce students to Python, embedded systems (Raspberry Pi),
-sensing, actuation, and introductory networking. The course will begin with a
-brief overview of Python and will then work through the basic IoT components.
-Specific components to be covered include I/O (input / output), timing (measuring
-time, time-based output (ex. PWM)), analog interactions (A/D, D/A),
-communication buses (serial, parallel), and networking (IP, wireless). The course
-will be a hands-on course with various skill building lab modules and projects.
+This course will introduce the basic building blocks of the Internet of Things (IoT). The course will introduce students to Python, embedded systems (Raspberry Pi), sensing, actuation, and introductory networking. The course will begin with a brief overview of Python and will then work through the basic IoT components. Specific components to be covered include I/O (input / output), timing (measuring time, time-based output (ex. PWM)), analog interactions (A/D, D/A), communication buses (serial, parallel), and networking (IP, wireless). The course will be a hands-on course with various skill building lab modules and projects.
 
 ## Instructor
 
-Prof. Aaron Striegel, Computer Science and Engineering
-striegel@nd.edu
+Prof. Aaron Striegel, Computer Science and Engineering, striegel@nd.edu
 
 ## Pre-Requisites
 
-None besides prior programming via MATLAB or other introductory coursework.  Generally, having taken EG 10117 / EG 10118 is sufficient.
+None besides prior programming via MATLAB or other introductory coursework.  EG 10117 / EG 10118 is sufficient.
 
 ## Textbook
 
@@ -40,7 +30,7 @@ None - all materials will be on-line / available via slides
 
 At the end of the course, students should be able to:
 
-* Describe the fundamental components of a microcontroller and the basic components of a system
+* Describe the fundamental components of a microcontroller and the basic components of a system on a chip (SoC)
 * Recognize and understand the basics of well-written / well-structured Python code
 * Describe and articulate how an embedded system reads and writes digital I/O (input via a key press, output to a LED)
 * Understand how time works on a computer (real-time) and how time can be measured (Input Capture) or used to manipulate I/O (PWM)
@@ -68,9 +58,10 @@ Lectures will be held on Monday and Wednesday morning from 9 AM - 12 PM.  A tena
 * The final exam is slated for the last day of class and will be cumulative.
 * A lab practical will be slated on the second to last day and will be done individually.  
 * Grades will be recorded via Canvas. Grading will follow the normal Canvas grading scale from A-F.
-* Late assignments will be docked 25% per day. A five minute grace period is afforded from the official time listed whereby a late penalty will not be assessed.
-* There is no extra credit though the grade may be curved as appropriate.
-* The group evaluation will be conducted twice in the session and will be used for final grade assignments.
+* Late assignments will be docked 25% per day from the maximum possible score. A five minute grace period is afforded from the official time listed whereby a late penalty will not be assessed.
+* The group evaluation will be conducted twice in the session and will be used for final grade assignments.  Provided that you submit the evaluation, you will initially receive full marks after which the evaluations will be considered when arriving at your final grade.  
+* The final project will be an extended report and presentation about relevant Internet of Things applications, ideally with an eye towards our study abroad location here in Berlin. 
+* Outstanding final projects, final exams, and / or group evaluations may warrant a grade bump for those who are extremely close to the next grade level (0.3% or less).
 
 ## Course Policies
 
@@ -88,6 +79,6 @@ As we will be doing relatively introductory Python for the course, many AI tools
 
 This class is meant to be interactive.  We will be doing both lecture content as well as a fair amount of coding so make sure to bring a laptop with you to class.  
 
-Keep in mind as well that we will interact with a wide variety of embedded system components that may or may not always work as intended.  There will be weird and obscure bugs that will at times test your savviness in taking advantage of all of the various public resources (Google, StackOverflow, etc.).  Much of the course will be group-oriented so you will be encouraged to take advantage of the knowledge of your peers as well. 
+Keep in mind as well that we will interact with a wide variety of embedded system components that may or may not always work as intended.  There will be weird and obscure bugs that will at times test your savviness in taking advantage of all of the various public resources (Google, StackOverflow, etc.).  Much of the course will be group-oriented so you will be encouraged to take advantage of the knowledge of your peers as well.  Advising / asking questions is OK, sharing code is not beyond your group for a given assignment.  
 
 
