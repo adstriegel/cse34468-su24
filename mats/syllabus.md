@@ -46,6 +46,7 @@ Lectures will be held on Monday and Wednesday morning from 9 AM - 12 PM.  A tena
 
 ## Grading
 
+| **Item** | **Weight** | **Item** | **Weight** | 
 |---|---|---|---|
 | **Pre-Assignment** | 5% | **Group Evaluation** | 5% | 
 | **Homework** | 10% | **Final Project** | 10% |  
