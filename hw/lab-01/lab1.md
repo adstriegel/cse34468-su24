@@ -1,5 +1,6 @@
 # Lab 1 - Introduction to the Raspberry Pi
 
+| --- | --- | 
 | **Assigned** | Monday, May 27th - Block 2 | 
 | **Due** | Wednesday, May 29th - 5 PM | 
 | **Team** | To be done individually |  

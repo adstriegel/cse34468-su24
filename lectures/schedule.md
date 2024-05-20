@@ -7,6 +7,7 @@ The various assignments and their respective due dates are listed at the bottom 
 The listed schedule is tenative and may be modulated depending on how the semester progresses.
 
 | **Week** | **Date** | **Block** | **Content** | **Links** |
+|---|---|---|---|---|
 | 1 | 05-27 M | 1 | Syllabus, Intro - IoT | Slides <br> Recap | 
 | 1 |         | 2 | Lab 1 - SSH, Python, Turning the Crank | Lab 1 | 
 | 1 |         | 3 | Python Bootcamp - Round 1 | Slides <br> Recap | 
@@ -54,7 +55,8 @@ The listed schedule is tenative and may be modulated depending on how the semest
 
 ## Labs
 
-| **Lab** | **Description** | **Date** | **Group** |  
+| **Lab** | **Description** | **Date** | **Group** | 
+|---|---|---|---| 
 | 1 | Lab 1 - SSH, Python, Turning the Crank | 05-27 | Individual | 
 | 2 | Lab 2 - Web Fetch, Statistics with Python | 05-29 | Individual | 
 | 3 | Lab 3 - Stoplight Controller | 06-03, 06-05 | Group |
@@ -66,6 +68,7 @@ The listed schedule is tenative and may be modulated depending on how the semest
 ## Assignments / Out of Class
 
 | **Assignment** | **Description** | **Assigned** | **Due Date** | 
+|---|---|---|---| 
 | 1 | Intro - Python Coding | 05-27 | 06-03 - Evening | 
 | 2 | Intro - Raspberry Pi Coding | 06-03 | 06-10 - Evening | 
 | FPV | Final Project Video  | | 07-03 - Start of Class |  
@@ -80,6 +83,7 @@ Assessments are conducted in-class and consist of quizzes, a lab practical, and 
 * *Final Exam:* The final exam will be held in class on Wednesday, July 3rd at the start of class. Fifty minutes will be given for the exam. Exams will be open laptop / open notes but closed Internet. The final exam will be completed individually.
 
 | **Assessment** | **Description** | **When** | 
+|---|---|---|
 | Quiz 1 | Week 1 Quiz - Python / General IoT | Wednesday, May 29th | 
 | Quiz 2 | Week 2 Quiz | Wednesday, June 5th | 
 | Quiz 3 | Week 3 Quiz | Wednesday, June 12th | 
