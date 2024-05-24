@@ -10,9 +10,9 @@ The listed schedule is tenative and may be modulated depending on how the semest
 |---|---|---|---|---|
 | 1 | | | **Week 1 - IoT + Python** | | 
 | 1 | 05-27 M | 1 | Syllabus, Intro - IoT | Slides <br> Recap | 
-| 1 |         | 2 | Lab 1 - SSH, Python, Turning the Crank | Lab 1 <br> Slides | 
+| 1 |         | 2 | [Lab 1 - SSH, Python, Turning the Crank](https://github.com/adstriegel/cse34468-su24/blob/main/hw/lab-01/lab1.md) | [Lab 1](https://github.com/adstriegel/cse34468-su24/blob/main/hw/lab-01/lab1.md) <br> Slides | 
 | 1 |         | 3 | Python Bootcamp - Round 1 | Slides <br> Recap | 
-| 1 |         | PM | Homework 1 | Homework 1 | 
+| 1 |         | PM | [Homework 1](https://github.com/adstriegel/cse34468-su24/blob/main/hw/hw-01/hw1.md) | [Homework 1](https://github.com/adstriegel/cse34468-su24/blob/main/hw/hw-01/hw1.md) | 
 | 1 | 05-29 W | 1 | Python Bootcamp - Round 2 | Slides <br> Recap | 
 | 1 |         | 2 | Lab 2 - Basic Statistics with Python | Lab 2 <br> Slides |  
 | 1 |         | 3 | Python Bootcamp - Round 3 | Slides <br> Recap |
@@ -83,6 +83,7 @@ The listed schedule is tenative and may be modulated depending on how the semest
 | 3 | Communications, Final Project Iteration | 06-10 | 06-17 | 
 | 4 | Design Considerations - IoT | 06-17 | 06-24 | 
 | 5 | Design Considerations - IoT | 06-24 | 07-01 | 
+| FPP | Final Project Pitch  | 06-10 | 06-17 | 
 | FPV | Final Project Video  | | 07-03 - Start of Class |  
 | FPR | Final Project Report | | 07-03 - Close of Day   |  
 

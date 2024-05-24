@@ -58,7 +58,7 @@ https://www.kickstarter.com/projects/meticulous/meticulous-espresso
 
 To what extent is the Internet (not with respect to crowd sourcing but rather the technology approach) involved as to this particular thing? Is this a good concept or a bad concept? Is the price point reasonable? 
 
-Write your small paragraph in a file named `meticulous.md`.
+Write your small paragraph in a file named `meticulous.md` in your `hw/hw-01` sub-directory in your private repository.
 
 ## Rubric / Double Check
 
