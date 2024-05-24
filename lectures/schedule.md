@@ -8,50 +8,59 @@ The listed schedule is tenative and may be modulated depending on how the semest
 
 | **Week** | **Date** | **Block** | **Content** | **Links** |
 |---|---|---|---|---|
+| 1 | | | **Week 1 - IoT + Python** | | 
 | 1 | 05-27 M | 1 | Syllabus, Intro - IoT | Slides <br> Recap | 
-| 1 |         | 2 | Lab 1 - SSH, Python, Turning the Crank | Lab 1 | 
+| 1 |         | 2 | Lab 1 - SSH, Python, Turning the Crank | Lab 1 <br> Slides | 
 | 1 |         | 3 | Python Bootcamp - Round 1 | Slides <br> Recap | 
-| 1 |         | PM | HW 1 - Python Practice | Homework 1 | 
-| 1 | 05-29 W | 1 | Python Bootcamp - Round 2 | | 
-| 1 |         | 2 | Lab 2 - Basic Statistics with Python | | 
-| 1 |         | 3 | Python Bootcamp - Round 3 | | 
+| 1 |         | PM | Homework 1 | Homework 1 | 
+| 1 | 05-29 W | 1 | Python Bootcamp - Round 2 | Slides <br> Recap | 
+| 1 |         | 2 | Lab 2 - Basic Statistics with Python | Lab 2 <br> Slides |  
+| 1 |         | 3 | Python Bootcamp - Round 3 | Slides <br> Recap |
 | 1 |         | Quiz | Week 1 Quiz - Python + IoT | Canvas - Quiz |
+| 2 | | | **Week 2 - Basic Input and Output** | | 
 | 2 | 06-03 M | 1 | Digital Input / Output + Schematics | | 
 | 2 |         | 2 | Lab 3 - Stoplight | | 
 | 2 |         | 3 | Output + Time - Pulse Width Modulation | | 
-| 2 |         | PM | HW 2 - Motor Control | | 
+| 2 |         | PM | Homework 2 | | 
 | 2 | 06-05 W | 1 | Analog Sensing - A/D and D/As | | 
 | 2 |         | 2 | Lab 3 - Stoplight | | 
 | 2 |         | 3 | Motion and Magnetics | | 
 | 2 |         | Quiz | Week 2 Quiz - Input / Output | |
+| 3 | | | **Week 3 - Communication Fundamentals** | | 
 | 3 | 06-10 M | 1 | Networking Basics | | 
 | 3 |         | 2 | Lab 4 - Motor Control | | 
 | 3 |         | 3 | Wireless - WiFi, Cellular | | 
-| 3 |         | PM | HW 3 - Project Identification | | 
+| 3 |         | PM | Homework 3 | | 
 | 3 | 06-12 W | 1 | Serial Communications | | 
 | 3 |         | 2 | Lab 5 - Temperature + Web | | 
 | 3 |         | 3 | Reliable Communications | | 
 | 3 |         | Quiz | Week 3 Quiz - Networking, Communications | |
+| 4 | | | **Week 4 - Cloud, Storage, Energy** | | 
 | 4 | 06-17 M | 1 | Pitch - Final Project Concepts | | 
 | 4 |         | 2 | Lab 6 - Digital Thermostat | | 
 | 4 |         | 3 | IoT and the Cloud | | 
+| 4 |         | PM | Homework 4 | | 
 | 4 | 06-19 W | 1 | Storage - RAM, ROM, Flash | | 
 | 4 |         | 2 | Lab 6 - Digital Thermostat | | 
 | 4 |         | 3 | Energy - Batteries, Power | | 
 | 4 |         | Quiz | Week 4 Quiz - IoT, Storage, Energy | |
+| 5 | | | **Week 5 - Low-Power, Design Considerations** | | 
 | 5 | 06-24 M | 1 | Low-Power Wireless - Bluetooth, Zigbee | | 
 | 5 |         | 2 | Lab 7 - MQTT and Motion | | 
-| 5 |         | 3 | Display Technologies | | 
+| 5 |         | 3 | Display Technologies | |
+| 5 |         | PM | Homework 5 | |  
 | 5 | 06-26 W | 1 | Microcontroller Explorations | | 
 | 5 |         | 2 | Work - Final Project | | 
 | 5 |         | 3 | Reliable Design | | 
 | 5 |         | Quiz | Week 5 - Low-Power, Displays, Microcontrollers | |
+| 6 | | | **Week 6 - Final Project, Exams** | | 
 | 6 | 07-01 M | 1 | Security, Privacy | Slides <br> Recap | 
 | 6 |         | 2 | Lab Practical | Canvas - Link | 
-| 6 |         | 3 | Work Time - Final Project | | 
+| 6 |         | 3 | Work Time - Final Project Video | | 
+| 6 |         | PM | No Homework Assigned | | 
 | 6 | 07-03 W | 1 | Final Exam (Written) | | 
-| 6 |         | 2 | Final Project - Presentations | | 
-| 6 |         | 3 | Final Project - Presentations | | 
+| 6 |         | 2 | Final Project - Presentation Videos | | 
+| 6 |         | 3 | Final Project - Presentation Videos | | 
 
 ## Labs
 
@@ -65,12 +74,15 @@ The listed schedule is tenative and may be modulated depending on how the semest
 | 6 | Lab 6 - Digital Thermostat | 06-17, 06-19 | Group |
 | 7 | Lab 7 - MQTT and Motion | 06-24 | Group |
 
-## Assignments / Out of Class
+## Homework / Out of Class Work
 
 | **Assignment** | **Description** | **Assigned** | **Due Date** | 
 |---|---|---|---| 
-| 1 | Intro - Python Coding | 05-27 | 06-03 - Evening | 
-| 2 | Intro - Raspberry Pi Coding | 06-03 | 06-10 - Evening | 
+| 1 | Intro - Python, Web Fetch, Design Thinking | 05-27 | 06-03 | 
+| 2 | Digital Input / Output, PWM, A/Ds | 06-03 | 06-10 | 
+| 3 | Communications, Final Project Iteration | 06-10 | 06-17 | 
+| 4 | Design Considerations - IoT | 06-17 | 06-24 | 
+| 5 | Design Considerations - IoT | 06-24 | 07-01 | 
 | FPV | Final Project Video  | | 07-03 - Start of Class |  
 | FPR | Final Project Report | | 07-03 - Close of Day   |  
 

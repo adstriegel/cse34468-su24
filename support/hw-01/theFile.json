@@ -1,0 +1,15 @@
+[ 
+    { "Date" : "12-29-23", "ND" : 40, "Other" : 8, "OtherName" : "Oregon State" },
+    { "Date" : "11-26-23", "ND" : 56, "Other" : 23, "OtherName" : "Stanford" },
+    { "Date" : "11-18-23", "ND" : 45, "Other" : 7, "OtherName" : "Wake Forest" },
+    { "Date" : "11-04-23", "ND" : 23, "Other" : 31, "OtherName" : "Clemson" },
+    { "Date" : "10-28-23", "ND" : 58, "Other" : 7, "OtherName" : "Pittsburgh" },
+    { "Date" : "10-15-23", "ND" : 48, "Other" : 20, "OtherName" : "USC" },
+    { "Date" : "10-08-23", "ND" : 20, "Other" : 33, "OtherName" : "Louisville" },
+    { "Date" : "10-01-23", "ND" : 21, "Other" : 14, "OtherName" : "Duke" },
+    { "Date" : "09-24-23", "ND" : 14, "Other" : 17, "OtherName" : "Ohio State" },
+    { "Date" : "09-16-23", "ND" : 41, "Other" : 17, "OtherName" : "Central Michigan" },
+    { "Date" : "09-09-23", "ND" : 45, "Other" : 24, "OtherName" : "NC State" },
+    { "Date" : "09-02-23", "ND" : 56, "Other" : 3, "OtherName" : "TN State" },
+    { "Date" : "08-26-23", "ND" : 42, "Other" : 3, "OtherName" : "Navy" }
+]
