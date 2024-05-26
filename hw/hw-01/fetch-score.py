@@ -1,11 +1,11 @@
-import requests
-
 # fetch-score.py : Retrieve a JSON from a website and parse it to determine the win-loss
 #                  record for Notre Dame for the season
 #
 # Name:
 # E-Mail:
 #
+
+import requests
 
 # Make a GET request to the website
 response = requests.get("http://ns-mn1.cse.nd.edu/cse34468/hw-01/score.json")
