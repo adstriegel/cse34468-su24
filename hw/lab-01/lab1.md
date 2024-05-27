@@ -12,7 +12,8 @@ The purpose of this lab is to get you familiar with the Raspberry Pi and how we 
 
 * `ssh`: SSH or Secure Shell is how we securely login to via a terminal to one of the six primary Raspberry Pi nodes that will be there on-site.  The recommended tool is [PuTTy](https://www.putty.org) for Windows or the Terminal for Mac (Applications / Utilities / Terminal).
 
-* `scp`: scp or Secure Copy is how we will move files back and forth between the Raspberry Pi and your laptop. The recommended tool is [WinSCP](https://winscp.net/eng/index.php) for Windows or the Terminal for Mac or [Transmit](https://panic.com/transmit/) for Mac if you want a GUI.  
+* `scp` or `sftp`: scp or Secure Copy / sftp or Secure File Transfer Protocol are how we will move files back and forth between the Raspberry Pi and your laptop. The recommended tool is [WinSCP](https://winscp.net/eng/index.php) for Windows or the Terminal for Mac or [Transmit](https://panic.com/transmit/) for Mac if you want a GUI.  
+   * Since Transmit is not free, you might use [CyberDuck](https://cyberduck.io) which is available for both Mac OS X and Windows.   
 
 * Python + Git: We will be running our code from the pre-assignment on an actual Raspberry Pi. It is highly recommended that you install Python on your laptop.   
 
@@ -52,6 +53,7 @@ Once you have the requisite software, join the `cse34468` access point.  You can
 We have a total of eight Raspberry Pi nodes at the following IP addresses:
 
 | **Host Name** | **IP Address** | **Unit Type** |
+|---|---|---|
 | gep-rpi001 | 192.168.0.125 | Raspberry Pi 5 |
 | gep-rpi002 | 192.168.0.126 | Raspberry Pi 5 |
 | gep-rpi003 | 192.168.0.127 | Raspberry Pi 5 |
