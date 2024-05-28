@@ -110,6 +110,7 @@ The lab is worth a total of 15 points, ten points for each of the demonstrations
 * 1 pt - Files are in the `lab-02` folder in your repository
 * 1 pt - Files are named correctly
 * 2 pt - Commit messages start with `lab-02`
+   * This will be strictly enforced now.  At worst case, at a line to your code and then add in an additional comment.  
 * 1 pt - Correct hash submitted via Canvas
 
-The lab is due by Monday afternoon at 5 PM. 
+The lab is due by Monday afternoon on June 3rd at 5 PM. 
