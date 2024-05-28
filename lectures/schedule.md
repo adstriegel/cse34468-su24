@@ -14,7 +14,7 @@ The listed schedule is tenative and may be modulated depending on how the semest
 | 1 |         | 3 | Python Bootcamp - Round 1 | [Slides](https://canvas.nd.edu/files/3739319/download?download_frd=1) <br> Recap | 
 | 1 |         | PM | [Homework 1](https://github.com/adstriegel/cse34468-su24/blob/main/hw/hw-01/hw1.md) | [Homework 1](https://github.com/adstriegel/cse34468-su24/blob/main/hw/hw-01/hw1.md) | 
 | 1 | 05-29 W | 1 | Python Bootcamp - Round 2 | Slides <br> Recap | 
-| 1 |         | 2 | Lab 2 - Basic Statistics with Python | Lab 2 <br> Slides |  
+| 1 |         | 2 | [Lab 2 - Basic Statistics with Python](https://github.com/adstriegel/cse34468-su24/blob/main/hw/lab-02/lab2.md) | [Lab 2](https://github.com/adstriegel/cse34468-su24/blob/main/hw/lab-02/lab2.md) <br> Slides |  
 | 1 |         | 3 | Python Bootcamp - Round 3 | Slides <br> Recap |
 | 1 |         | Quiz | Week 1 Quiz - Python + IoT | Canvas - Quiz |
 | 2 | | | **Week 2 - Basic Input and Output** | | 
