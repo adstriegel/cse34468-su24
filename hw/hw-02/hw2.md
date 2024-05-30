@@ -5,14 +5,20 @@
 | **Assigned** | Monday, June 3rd - Block 3 | 
 | **Due** | Monday, June 10th - 5 PM | 
 | **Team** | To be done individually |  
-| **Canvas Link** | Homework 02 | 
+| **Canvas Link** | [Homework 02](https://canvas.nd.edu/courses/92659/assignments/274662) | 
 | **Points** | 18 points | 
 
 ## Submission
 
+### Via GitHub
+
 To submit the homework, create a `hw-02` sub-directory in your Git repository under the `hw` directory. Place the respective files as noted in the instructions in that sub-directory.  Make sure to `commit` and `push` the files and then note the submission hash via Canvas.  Your `commit` message should start with `hw-02: YOUR MESSAGE`. 
 
 You are welcome to do a single commit and push with everything or to do individual commits on each problem (recommended) followed by a push. You will only need to submit the last hash of your homework.
+
+### Via Canvas
+
+As the assignment involves various sketches / diagrams, you may also upload a single PDF with your answers to Canvas. 
 
 ### Question 1 - 2 pts
 
