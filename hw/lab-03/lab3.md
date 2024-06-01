@@ -172,6 +172,8 @@ Confirm that you can connect to the server.  You should not see your channel (ye
 
 You can find the hostname, port, username, and password in the mqtt-config.json file.  
 
+![MQTT Explorer View](View-MQTT.png)
+
 ### Getting Your Client Started
 
 Take a look at the following code: [Example MQTT Code](https://github.com/adstriegel/sigcap-buddy/blob/main/rpi_pub.py)
