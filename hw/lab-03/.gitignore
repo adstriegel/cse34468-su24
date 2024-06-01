@@ -1,1 +1,2 @@
-.mqtt-config.json
+mqtt-config.json
+__pycache__

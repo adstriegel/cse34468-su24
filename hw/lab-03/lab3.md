@@ -84,8 +84,7 @@ For this lab, we are going to take a somewhat similar approach where will have a
 
 With your group members, plan out writing in comments what an appropriate set of states might be.  Give each state a name (string) and consider what the setting of the lights should be at each point.  Consider the following constraints:
 
-* The main stoplight for the traffic should follow the pattern of red, red-yellow, green, yellow.  
-* There will only be one direction with tram traffic (the east-west) direction.  
+* The main stoplight for the traffic should follow the pattern of red, red-yellow, green, yellow.    
 * The main stoplights for the different directions should never be green at the same time.
 * The crosswalk lights should follow the flow of traffic, e.g. pedestrians should not be crossing when traffic is allowed.
 * For the north-south crosswalk, pedestrian traffic will have three walk / do not walk sets of lights, one for traversing the sidewalk to the middle, one for traversing the middle over the tram tracks, and one for going from the tram median to the other sidewalk. 
@@ -93,7 +92,7 @@ With your group members, plan out writing in comments what an appropriate set of
 * For the east-west crosswalk, there is only a single walk / do not walk light as there is not a middle portion to traverse.
 * For mimicking the tick of the speaker, we will flash a light light on and off associated with that direction (250 ms on, 750 ms off).
 
-Think about what sort of timing each light should have. How long should the main traffic light be green for a given direction?  How much time does that give for the crosswalk? What are the different states where you might enumerate the overall system? 
+Think about what sort of timing each light should have. How long should the main traffic light be green for a given direction?  How much time does that give for the crosswalk? What are the different states where you might enumerate the overall system?  Try walking across part of the classroom for what you think is an appropriate distance, how long does that take?  Think as well about waiting, recognizing the light has changed and starting to walk across in your timing consideration.
 
 For instance, you might say that the main traffic light should have 30 seconds. When the main traffic light is green, that means that the crosswalk in parallel should be green for 20 or 25 of those 30 seconds.  You might view that as a state with something like the following information:
 
@@ -102,7 +101,7 @@ For instance, you might say that the main traffic light should have 30 seconds. 
 
 Sketch out all of the various states for the stoplight and write it down in either comments in your source code file or in your `README.md`.
 
-### Write Helper Functions
+### Write the Helper Functions
 
 Think about what sort of a strategy that you might want to use for controlling the various lights of the stoplight.  Do you want to have your function recognize the state and then set the various pixels or would you rather have your main loop call a function telling it what to set the light values to.  
 
@@ -130,11 +129,11 @@ Note that for your functions, you will need to pass in the SenseHAT class instan
 
 Go ahead and get started.  Think about how your states work.  Think about how you split your code into functions.  Think about how the chirp of the speaker relates to the broader states.  Tinker, plan, and try it out.  
 
-To help make things faster, you can adjust the pre-scalar value. The pre-scalar is a divider applied to the timing that makes thing faster or slower.  As it is currently set up, the clock runs twice as fast.  Adjust it appropriately to make your code a bit easier to test. 
+To help make things faster when testing, you can adjust the pre-scalar value. The pre-scalar is a divider applied to the timing that makes thing faster or slower.  As it is currently set up, the clock runs twice as fast.  Adjust it appropriately to make your code a bit easier to test. 
 
 ### Iterate on Your Code
 
-Test your code using the [SenseHAT emulator](https://trinket.io/sense-hat).  Once you are sure that it is working, test your code on a real Raspberry Pi.
+Test your code using the [SenseHAT emulator](https://trinket.io/sense-hat).  Once you are sure that it is working, test your code on a real Raspberry Pi.  Use the Lab 1 writeup for the information about the respective IP addresses.  We will plan on having the six Raspberry Pi 5's fully operational with an option to turn on the two additional Rasbperry Pi 2W Zero nodes.
 
 **Task:** Demonstrate your stoplight working on the Raspberry Pi to Prof. Striegel.
 
@@ -142,11 +141,13 @@ Test your code using the [SenseHAT emulator](https://trinket.io/sense-hat).  Onc
 
 While in the first part we worked on controlling the stoplight, in the second part, we are seeking to share the state of the stoplight for the purposes of connecting the information therein to a broader ecosystem allowing others to build on such information. In the spirit of the Field of Dreams, the hope is that by putting the information out there (if you build it), entrepneurial individuals will build fascinating / cool apps to take advantage of such information (they will come).  Of course the question of who pays to host such servers and then to provide the data to all of those entpreneurs is a question that we will ignore and leave to a subsequent funding cycle.
 
-### Overview 
+### Overview - Part 2
 
-For the purposes of sharing information, we will be using a protocol called MQTT.  One can informally think of MQTT as Discord for the Internet of Things or to date oneself a bit, Instant Messenger for IoT.  As MQTT is done across the network, we will no longer be able to use the Sense HAT emulator and will need to transition to only the Raspberry Pi units themselves.  
+For the purposes of making our stoplight "smart" (e.g. sharing information), we will be using a protocol called MQTT.  One can informally think of MQTT as Discord for the Internet of Things or to date oneself a bit, Instant Messenger for IoT.  As MQTT is done across the network, we will no longer be able to use the Sense HAT emulator and will need to transition to only the Raspberry Pi units themselves.  
 
-MQTT is a message-based protocol whereby messages can be published to a particular channel or topic.  When a message is published, all subscribes who are listening to that channel will receive the message.  A channel can be any appropriate string with the ability to support a hierarchical arrangement similar to how directories are listed.  For the purposes of this class, we will be using the following location:
+MQTT (Message Queuing Telemetry Transport) is a message-based protocol whereby messages can be published to a particular channel or topic.  When a message is published, all subscribes who are listening to that channel will receive the message.  A channel can be any appropriate string with the ability to support a hierarchical arrangement similar to how directories are listed.  You can find a reasonably good overview of MQTT [here](https://www.opc-router.com/what-is-mqtt/):
+
+For the purposes of this class, we will be using the following location:
 
 `cse34468-su24/YOURGROUP/xxx` where `YOURGROUP` is the identifier that you have picked for your group and `xxx` is the topic name where you are placing your messages.
 
@@ -164,8 +165,9 @@ You can search for a variety of MQTT clients (not servers) that can be run on ei
 
 Confirm that you can connect to the server.  You should not see your channel (yet) as we have not published anything there.  You can however see a wide variety of channels for one of Prof. Striegel's research project.  Take a look amongst the various channels briefly.
 
-* Mac OS X: MQTT Explorer
-* Windows:
+* Mac OS X and Windows: [MQTT Explorer](http://mqtt-explorer.com)
+
+You can find the hostname, port, username, and password in the mqtt-config.json file.  
 
 ### Getting Your Client Started
 
@@ -175,11 +177,11 @@ This code is what forms the basis for a MQTT heartbeat / information updates the
 
 For our purposes, we are going to work with something much simpler.  Do the following:
 
-1. Grab the `mqttlink.py` file from the class repository
-2. Grab the `mqtttest.py` file from the class repository
+1. Grab the `mqtt_link.py` file from the class repository
+2. Grab the `mqtt_test.py` file from the class repository
 3. Get the `.gitignore` file from the class repository.
-4. Go to Canvas and grab the `.mqtt-config.json` file from the in Files and `labs` folder.  Note that the file starts with a `.` to keep it "hidden"
-5. Modify the `mqtttest.py` file to use your group name instead of `awesome`
+4. Go to Canvas and grab the `mqtt-config.json` file from the in Files and `labs` folder.  Note that the file starts with a `.` to keep it "hidden"
+5. Modify the `mqtt_test.py` file to use your group name instead of `awesome`.  If you are working individually, use your Net ID.  
 6. Copy all of those files up to your Raspberry Pi that you are working on
 7. Run the code
 8. Browse to the code using the MQTT app that you downloaded in the past step.  See if your messages are coming through.
@@ -198,16 +200,16 @@ Next, create a list outside of the loop that contains the Net IDs of all of your
 
 where the `NetID` value rotates and the `TimeAlive` value is drawn from the `TheCount` variable.  Output this JSON to a channel that ends in `json` replacing `status` with `json`.
 
-Confirm that this code works correctly and then move onto bringing all of your code together.
+Confirm that this code works correctly via MQTT-Explorer and then move onto bringing all of your code together.
 
 ### Make the Stoplight Smart
 
 Bring over the key parts of the code from `mqtttest.py`.  The following lines from `mqtttest.py` will need to be brought over:
 
-* The import of the `mqttlink` support
+* The `import` of the `mqtt_link` file
    * This should go by your other `import` line(s)
 * The client initialization line: `theClient = mqttnd.connect_mqtt()`
-   * This should go close but not in your loop
+   * This should go just before your while loop
 
 Add in support to your loop that provides the following at the following topic locations (`cse34468-su24/yourgroupname/lab-03/stoplight/`):
 
@@ -215,7 +217,7 @@ Add in support to your loop that provides the following at the following topic l
 * The state of the North / South stoplight on the `traffic-ns` channel (e.g. Green, Red, etc.)  
 * The state of the East / West stoplight on the `traffic-ew` channel (e.g. Green, Red, etc.)  
 
-It is optional if you would like to also include the state of the crosswalks.  
+It is optional if you would like to also include the state of the crosswalks using a naming convention of your choice.  
 
 **Task:** Demonstrate everything working together to Prof. Striegel.
 
@@ -230,7 +232,7 @@ Next, consider if the communication were to be made two ways and an authorized p
 Your GitHub submission will have several files in the `hw/lab-03` sub-directory for one of the group members. Your code must have the following files to receive credit for the demos in the repository of the primary submitter:
 
 * `/hw/lab-03/stoplight.py`
-* `/hw/lab-03/mqtttest.py`
+* `/hw/lab-03/mqtt_test.py`
 * `/hw/lab-03/broader-use.md`
 
 If you are not submitting for your repository but are part of a different team, submit on Canvas the name of the person who is submitting for your group.

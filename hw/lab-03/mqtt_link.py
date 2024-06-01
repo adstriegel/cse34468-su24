@@ -4,11 +4,12 @@
 
 from paho.mqtt import client as mqtt
 import json
+from pathlib import Path
 
 # This code is provided for you
 
 def load_mqtt_auth():
-    auth_path = Path(".mqtt-config.json")
+    auth_path = Path("mqtt-config.json")
     timeout_s = 60
     while not auth_path.is_file():
         print('Oh no - no mqtt-config.json file found - bailing out!')
@@ -19,12 +20,11 @@ def load_mqtt_auth():
 
 def connect_mqtt ():
     client = mqtt.Client(
-        client_id=mac,
         callback_api_version=mqtt.CallbackAPIVersion.VERSION1)
 
     auth = load_mqtt_auth()
     client.username_pw_set(auth['username'], auth['password'])
-    client.connect(config['broker_addr'], int(config['broker_port']), 60)
+    client.connect(auth['broker_addr'], int(auth['broker_port']), 60)
 
     return client 
 
