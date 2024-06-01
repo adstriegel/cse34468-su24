@@ -100,7 +100,7 @@ While not required, you are welcome to enhance the code in several ways includin
 
 Your GitHub submission will have a single file in the following location in your private repository:
 
-* `/hw/lab-02/compute-stats.mine.py`
+* `/hw/lab-02/compute-stats-mine.py` or `/hw/lab-02/compute-stats.py`
 
 ## Grading
 
