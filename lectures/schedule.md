@@ -28,6 +28,7 @@ The listed schedule is tenative and may be modulated depending on how the semest
 | 2 |         | 2 | [Lab 3 - Stoplight](https://github.com/adstriegel/cse34468-su24/blob/main/hw/lab-03/lab3.md) | | 
 | 2 |         | 3 | Motion and Magnetics | | 
 | 2 |         | Quiz | Week 2 Quiz - Input / Output | |
+| 2 |         | Sat+Sun | Excursion to Hamburg | | 
 | 3 | | | **Week 3 - Communication Fundamentals** | | 
 | 3 | 06-10 M | 1 | Networking Basics | | 
 | 3 |         | 2 | Lab 4 - Motor Control | | 
@@ -55,14 +56,15 @@ The listed schedule is tenative and may be modulated depending on how the semest
 | 5 |         | 2 | Work - Final Project | | 
 | 5 |         | 3 | Reliable Design | | 
 | 5 |         | Quiz | Week 5 - Low-Power, Displays, Microcontrollers | |
+| 5 |         | F+Sat | Excursion to Dresden | | 
 | 6 | | | **Week 6 - Final Project, Exams** | | 
 | 6 | 07-01 M | 1 | Security, Privacy | Slides <br> Recap | 
 | 6 |         | 2 | Lab Practical | Canvas - Link | 
 | 6 |         | 3 | Work Time - Final Project Video | | 
 | 6 |         | PM | No Homework Assigned | | 
-| 6 | 07-03 W | 1 | Final Exam (Written) | | 
-| 6 |         | 2 | Final Project - Presentation Videos | | 
-| 6 |         | 3 | Final Project - Presentation Videos | | 
+| 6 | 07-03 W | 1 | Final Project - Presentation Videos | | 
+| 6 |         | 2 | Final Project - Presentation Videos / Study Break | | 
+| 6 |         | 3 | Final Exam (Written) | | 
 
 ## Labs
 
