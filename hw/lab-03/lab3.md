@@ -3,7 +3,7 @@
 | **Aspect** | **Information** |
 | --- | --- | 
 | **Assigned** | Monday, June 3rd - Block 2 | 
-| **Due** | Monday, June 10th - 5 PM | 
+| **Due** | Monday, June 10th - 5 PM (two class periods to work on it) | 
 | **Team** | May be done in a group of up to three |  
 | **Canvas Link** | Lab 03 | 
 | **Points** | 45 points | 
