@@ -21,11 +21,11 @@ The listed schedule is tenative and may be modulated depending on how the semest
 | 1 |         | Quiz | Week 1 Quiz - Python + IoT | [Canvas - Quiz](https://canvas.nd.edu/courses/92659/quizzes/52487) |
 | 2 | | | **Week 2 - Basic Input and Output** | | 
 | 2 | 06-03 M | 1 | Digital Input / Output + Schematics | | 
-| 2 |         | 2 | Lab 3 - Stoplight | | 
+| 2 |         | 2 | [Lab 3 - Stoplight](https://github.com/adstriegel/cse34468-su24/blob/main/hw/lab-03/lab3.md) | | 
 | 2 |         | 3 | Output + Time - Pulse Width Modulation | | 
 | 2 |         | PM | [Homework 2](https://github.com/adstriegel/cse34468-su24/blob/main/hw/hw-02/hw2.md) | | 
 | 2 | 06-05 W | 1 | Analog Sensing - A/D and D/As | | 
-| 2 |         | 2 | Lab 3 - Stoplight | | 
+| 2 |         | 2 | [Lab 3 - Stoplight](https://github.com/adstriegel/cse34468-su24/blob/main/hw/lab-03/lab3.md) | | 
 | 2 |         | 3 | Motion and Magnetics | | 
 | 2 |         | Quiz | Week 2 Quiz - Input / Output | |
 | 3 | | | **Week 3 - Communication Fundamentals** | | 
