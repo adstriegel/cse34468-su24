@@ -5,7 +5,7 @@
 | **Assigned** | Monday, June 3rd - Block 2 | 
 | **Due** | Monday, June 10th - 5 PM (two class periods to work on it) | 
 | **Team** | May be done in a group of up to three |  
-| **Canvas Link** | Lab 03 | 
+| **Canvas Link** | [Lab 03](https://canvas.nd.edu/courses/92659/assignments/275049) | 
 | **Points** | 45 points | 
 
 ## Overview
