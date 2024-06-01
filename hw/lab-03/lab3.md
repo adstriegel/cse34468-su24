@@ -91,6 +91,9 @@ With your group members, plan out writing in comments what an appropriate set of
    * Recall that on transitioning to green, generally all of the crosswalk lights on the direction turn green and then stagger to red.  
 * For the east-west crosswalk, there is only a single walk / do not walk light as there is not a middle portion to traverse.
 * For mimicking the tick of the speaker, we will flash a light light on and off associated with that direction (250 ms on, 750 ms off).
+   * There are three speakers in the north-south direction and one speaker in the east-west direction.
+
+![Diagram of LEDS](Diagram-LEDs.png)
 
 Think about what sort of timing each light should have. How long should the main traffic light be green for a given direction?  How much time does that give for the crosswalk? What are the different states where you might enumerate the overall system?  Try walking across part of the classroom for what you think is an appropriate distance, how long does that take?  Think as well about waiting, recognizing the light has changed and starting to walk across in your timing consideration.
 
