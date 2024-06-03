@@ -22,7 +22,7 @@ The listed schedule is tenative and may be modulated depending on how the semest
 | 2 | | | **Week 2 - Basic Input and Output** | | 
 | 2 | 06-03 M | 1 | Digital Input / Output + Schematics | | 
 | 2 |         | 2 | [Lab 3 - Stoplight](https://github.com/adstriegel/cse34468-su24/blob/main/hw/lab-03/lab3.md) | | 
-| 2 |         | 3 | Output + Time - Pulse Width Modulation | | 
+| 2 |         | 3 | Output + Time - Pulse Width Modulation, Stepper Motors | | 
 | 2 |         | PM | [Homework 2](https://github.com/adstriegel/cse34468-su24/blob/main/hw/hw-02/hw2.md) | | 
 | 2 | 06-05 W | 1 | Analog Sensing - A/D and D/As | | 
 | 2 |         | 2 | [Lab 3 - Stoplight](https://github.com/adstriegel/cse34468-su24/blob/main/hw/lab-03/lab3.md) | | 
@@ -31,11 +31,11 @@ The listed schedule is tenative and may be modulated depending on how the semest
 | 2 |         | Sat+Sun | Excursion to Hamburg | | 
 | 3 | | | **Week 3 - Communication Fundamentals** | | 
 | 3 | 06-10 M | 1 | Networking Basics | | 
-| 3 |         | 2 | Lab 4 - Motor Control | | 
+| 3 |         | 2 | Lab 4 - Temperature + Web | | 
 | 3 |         | 3 | Wireless - WiFi, Cellular | | 
 | 3 |         | PM | [Homework 3](https://github.com/adstriegel/cse34468-su24/blob/main/hw/hw-03/hw3.md) | | 
 | 3 | 06-12 W | 1 | Serial Communications | | 
-| 3 |         | 2 | Lab 5 - Temperature + Web | | 
+| 3 |         | 2 | Lab 5 - Motor Control | | 
 | 3 |         | 3 | Reliable Communications | | 
 | 3 |         | Quiz | Week 3 Quiz - Networking, Communications | |
 | 4 | | | **Week 4 - Cloud, Storage, Energy** | | 
@@ -73,8 +73,8 @@ The listed schedule is tenative and may be modulated depending on how the semest
 | 1 | Lab 1 - SSH, Python, Turning the Crank | 05-27 | Individual | 
 | 2 | Lab 2 - Web Fetch, Statistics with Python | 05-29 | Individual | 
 | 3 | Lab 3 - Stoplight Controller | 06-03, 06-05 | Group |
-| 4 | Lab 4 - Motor Control | 06-10 | Group |
-| 5 | Lab 5 - Temperature + Web | 06-12 | Group |
+| 4 | Lab 4 - Temperature + Web | 06-10 | Group |
+| 5 | Lab 5 - Motor Control | 06-12 | Group |
 | 6 | Lab 6 - Digital Thermostat | 06-17, 06-19 | Group |
 | 7 | Lab 7 - MQTT and Motion | 06-24 | Group |
 
