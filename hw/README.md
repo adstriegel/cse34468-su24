@@ -9,5 +9,5 @@ Homework items are to be completed entirely outside of class and consist of smal
 | Lab 01 | Raspberry Pi Connect | 05-27-24 | 05-29-24 | 
 | Lab 02 | Statistics and CSV Web Fetch | 05-29-24 | 06-03-24 | 
 | HW 02 | Digital I/O and Timing | 06-03-24 | 06-10-24 | 
-| Lab 03 | Smart German Stoplight | 06-03-24 | 06-10-24 |
+| Lab 03 | Smart German Stoplight | 06-03-24 | 06-12-24 |
 

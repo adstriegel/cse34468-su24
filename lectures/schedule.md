@@ -72,10 +72,10 @@ The listed schedule is tenative and may be modulated depending on how the semest
 |---|---|---|---| 
 | 1 | Lab 1 - SSH, Python, Turning the Crank | 05-27 | Individual | 
 | 2 | Lab 2 - Web Fetch, Statistics with Python | 05-29 | Individual | 
-| 3, 4 | Lab 3 - Stoplight Controller | 06-03, 06-05 | Group |
-| 4 | Lab 4 - Temperature, Motion, Web | 06-10 | Group |
+| 3, 4 | Lab 3 - Stoplight Controller | 06-03, 06-05, 06-10 | Group |
+| 4 | Lab 4 - Temperature, Motion, Web | 06-12 | Group |
 | 5 | Lab 5 - Digital Thermostat | 06-17, 06-19 | Group |
-| 6 | Lab 6 - Motor Control | 06-12 | Group |
+| 6 | Lab 6 - Motor Control | 06-24 | Group |
 
 ## Homework / Out of Class Work
 
