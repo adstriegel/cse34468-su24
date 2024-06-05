@@ -156,11 +156,17 @@ For the purposes of this class, we will be using the following location:
 
 ### Ensure MQTT is Installed on the Pi
 
-You can confirm if the MQTT client is installed by running:
+**Updated on 06-05-24**: Normally, one would do the following to make sure that the MQTT client is properly installed using either `pip` or `pip3` (Python3 specific version):
 
 ```
 pip install paho-mqtt
 ```
+
+However, the most recent version of Debian (the variant of Linux) called Bookworm that runs on the Raspberry Pi tries to make things a bit more secure. While you can read up on how to use `venv` [here](https://learn.adafruit.com/python-virtual-environment-usage-on-raspberry-pi), we will go for the easy route and simply do a bit of magic with the alternative mechanism for `pip`-based installs. To install the MQTT client support on the Raspberry Pi 5, type the following:
+
+`sudo apt install python3-paho-mqtt`
+
+`sudo` is a command that stands for super user (root) do.  Think of it like being prompted by the are you sure box when installing on a Windows machine or on a Mac.  You can also see a humorous take on via the [XKCD comic](https://xkcd.com/149/).  The rest is the normal mechanism for installing via Linux (`apt`, `install`) and the package that we are installing is `paho-mqtt` (a specific MQTT client) for Python 3.  
 
 ### Get a MQTT App / Confirm Operation
 
