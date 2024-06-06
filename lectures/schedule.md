@@ -20,28 +20,28 @@ The listed schedule is tenative and may be modulated depending on how the semest
 | 1 |         | 3 | Python Bootcamp - Round 3 | [Slides](https://canvas.nd.edu/files/3740467/download?download_frd=1) <br> [Recap](https://github.com/adstriegel/cse34468-su24/blob/main/lectures/lecture-02/recap.md) |
 | 1 |         | Quiz | Week 1 Quiz - Python + IoT | [Canvas - Quiz](https://canvas.nd.edu/courses/92659/quizzes/52487) |
 | 2 | | | **Week 2 - Basic Input and Output** | | 
-| 2 | 06-03 M | 1 | Digital Input / Output + Schematics | | 
+| 2 | 06-03 M | 1 | Digital Input / Output + Schematics | Slides <br> [Recap](https://github.com/adstriegel/cse34468-su24/blob/main/lectures/lecture-03/recap.md) | 
 | 2 |         | 2 | [Lab 3 - Stoplight](https://github.com/adstriegel/cse34468-su24/blob/main/hw/lab-03/lab3.md) | | 
-| 2 |         | 3 | Output + Time - Pulse Width Modulation, Stepper Motors | | 
+| 2 |         | 3 | Output + Time - Pulse Width Modulation, Stepper Motors | Slides <br> [Recap](https://github.com/adstriegel/cse34468-su24/blob/main/lectures/lecture-03/recap.md)| 
 | 2 |         | PM | [Homework 2](https://github.com/adstriegel/cse34468-su24/blob/main/hw/hw-02/hw2.md) | | 
-| 2 | 06-05 W | 1 | Analog Sensing - A/D and D/As | | 
+| 2 | 06-05 W | 1 | Analog Sensing - A/D and D/As | [Slides](https://canvas.nd.edu/files/3747845/download?download_frd=1) <br> [Recap](https://github.com/adstriegel/cse34468-su24/blob/main/lectures/lecture-04/recap.md) | 
 | 2 |         | 2 | [Lab 3 - Stoplight](https://github.com/adstriegel/cse34468-su24/blob/main/hw/lab-03/lab3.md) | | 
-| 2 |         | 3 | Motion and Magnetics | | 
-| 2 |         | Quiz | Week 2 Quiz - Input / Output | |
-| 2 |         | Sat+Sun | Excursion to Hamburg | | 
+| 2 |         | 3 | A/Ds - Finish | [Slides](https://canvas.nd.edu/files/3747845/download?download_frd=1) <br> [Recap](https://github.com/adstriegel/cse34468-su24/blob/main/lectures/lecture-04/recap.md) | 
+| 2 |         | Quiz | [Week 2 Quiz - Input / Output](https://canvas.nd.edu/courses/92659/quizzes/52524) | |
+| 2 |         | Sat+Sun | Excursion to Dresden | | 
 | 3 | | | **Week 3 - Communication Fundamentals** | | 
-| 3 | 06-10 M | 1 | Networking Basics | | 
-| 3 |         | 2 | Lab 3 - Stoplight (?) | | 
-| 3 |         | 3 | Wireless - WiFi, Cellular | | 
+| 3 | 06-10 M | 1 | Motion and Magnetics, Networking Basics | Slides <br> Recap | 
+| 3 |         | 2 | Lab 3 - Stoplight | | 
+| 3 |         | 3 | Networking (cont'd) <br> Wireless - WiFi, Cellular | Slides <br> Recap | 
 | 3 |         | PM | [Homework 3](https://github.com/adstriegel/cse34468-su24/blob/main/hw/hw-03/hw3.md) | | 
-| 3 | 06-12 W | 1 | Serial Communications | | 
+| 3 | 06-12 W | 1 | Serial Communications | Slides <br> Recap | 
 | 3 |         | 2 | Lab 4 - Temperature, Motion, Web | | 
-| 3 |         | 3 | Reliable Communications | | 
+| 3 |         | 3 | Reliable Communications (CAN) | Slides <br> Recap | 
 | 3 |         | Quiz | Week 3 Quiz - Networking, Communications | |
 | 4 | | | **Week 4 - Cloud, Storage, Energy** | | 
-| 4 | 06-17 M | 1 | IoT and the Cloud | | 
+| 4 | 06-17 M | 1 | IoT and the Cloud | Slides <br> Recap | 
 | 4 |         | 2 | Lab 5 - Digital Thermostat | | 
-| 4 |         | 3 | Storage - RAM, ROM, Flash | | 
+| 4 |         | 3 | Storage - RAM, ROM, Flash | Slides <br> Recap | 
 | 4 |         | PM | Homework 4 | | 
 | 4 | 06-19 W | 1 | Pitch - Final Project Concepts | | 
 | 4 |         | 2 | Lab 5 - Digital Thermostat | | 
@@ -56,7 +56,7 @@ The listed schedule is tenative and may be modulated depending on how the semest
 | 5 |         | 2 | Work - Final Project | | 
 | 5 |         | 3 | Reliable Design | | 
 | 5 |         | Quiz | Week 5 - Low-Power, Displays, Microcontrollers | |
-| 5 |         | F+Sat | Excursion to Dresden | | 
+| 5 |         | F+Sat | Excursion to Hamburg | | 
 | 6 | | | **Week 6 - Final Project, Exams** | | 
 | 6 | 07-01 M | 1 | Security, Privacy | Slides <br> Recap | 
 | 6 |         | 2 | Lab Practical | Canvas - Link | 
