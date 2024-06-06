@@ -88,7 +88,7 @@ The listed schedule is tenative and may be modulated depending on how the semest
 | 5 | Design Considerations - IoT | 06-24 | 07-01 | 
 | FPP | Final Project Pitch  | 06-10 | 06-19 | 
 | FPV | Final Project Video  | | 07-03 - Start of Class |  
-| FPR | Final Project Report | | 07-03 - Close of Day   |  
+| FPSD | Final Project Supplementary Documentation | | 07-03 - Start of Class   |  
 
 ## Assessments
 
