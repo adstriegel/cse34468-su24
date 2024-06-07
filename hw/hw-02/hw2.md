@@ -16,6 +16,8 @@ To submit the homework, create a `hw-02` sub-directory in your Git repository un
 
 You are welcome to do a single commit and push with everything or to do individual commits on each problem (recommended) followed by a push. You will only need to submit the last hash of your homework.
 
+You may name your files as you see fit for the submission thought it would be preferred to put them all in a file named `hw2.md` in the `hw-02` directory under `hw`, e.g. `hw/hw-02/hw2.md`.  
+
 ### Via Canvas
 
 As the assignment involves various sketches / diagrams, you may also upload a single PDF with your answers to Canvas. 
