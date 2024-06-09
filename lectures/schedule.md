@@ -51,7 +51,7 @@ The listed schedule is tenative and may be modulated depending on how the semest
 | 5 | 06-24 M | 1 | Low-Power Wireless - Bluetooth, Zigbee | | 
 | 5 |         | 2 | Lab 6 - Motor Control | | 
 | 5 |         | 3 | Display Technologies | |
-| 5 |         | PM | Homework 5 | |  
+| 5 |         | PM | No Homework - Final Project Work | |  
 | 5 | 06-26 W | 1 | Microcontroller Explorations | | 
 | 5 |         | 2 | Work - Final Project | | 
 | 5 |         | 3 | Reliable Design | | 
@@ -85,7 +85,6 @@ The listed schedule is tenative and may be modulated depending on how the semest
 | 2 | Digital Input / Output, PWM | 06-03 | 06-10 | 
 | 3 | A/Ds, Communications, Final Project Iteration | 06-10 | 06-17 | 
 | 4 | Design Considerations - IoT | 06-17 | 06-24 | 
-| 5 | Design Considerations - IoT | 06-24 | 07-01 | 
 | FPP | Final Project Pitch  | 06-10 | 06-19 | 
 | FPV | Final Project Video  | | 07-03 - Start of Class |  
 | FPSD | Final Project Supplementary Documentation | | 07-03 - Start of Class   |  
