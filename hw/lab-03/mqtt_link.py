@@ -19,8 +19,8 @@ def load_mqtt_auth():
         return json.load(file)
 
 def connect_mqtt ():
-    client = mqtt.Client(
-        callback_api_version=mqtt.CallbackAPIVersion.VERSION1)
+    client = mqtt.Client()
+#        callback_api_version=mqtt.CallbackAPIVersion.VERSION1)
 
     auth = load_mqtt_auth()
     client.username_pw_set(auth['username'], auth['password'])
