@@ -191,7 +191,7 @@ For our purposes, we are going to work with something much simpler.  Do the foll
 1. Grab the `mqtt_link.py` file from the class repository
 2. Grab the `mqtt_test.py` file from the class repository
 3. Get the `.gitignore` file from the class repository.
-4. Go to Canvas and grab the `mqtt-config.json` file from the in Files and `labs` folder.  Note that the file starts with a `.` to keep it "hidden"
+4. Go to Canvas and grab the `mqtt-config.json` file from the in Files and `labs` folder. 
 5. Modify the `mqtt_test.py` file to use your group name instead of `awesome`.  If you are working individually, use your Net ID.  
 6. Copy all of those files up to your Raspberry Pi that you are working on
 7. Run the code
