@@ -3,7 +3,7 @@
 | **Aspect** | **Information** |
 | --- | --- | 
 | **Assigned** | Monday, June 3rd - Block 2 | 
-| **Due** | Wednesday, June 12th - 5 PM (three class periods to work on it) | 
+| **Due** | Monday, June 19th - 5 PM (four class periods to work on it) | 
 | **Team** | May be done in a group of up to three |  
 | **Canvas Link** | [Lab 03](https://canvas.nd.edu/courses/92659/assignments/275049) | 
 | **Points** | 45 points | 

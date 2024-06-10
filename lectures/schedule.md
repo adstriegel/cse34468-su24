@@ -35,21 +35,21 @@ The listed schedule is tenative and may be modulated depending on how the semest
 | 3 |         | 3 | Networking (cont'd) <br> Wireless - WiFi, Cellular | Slides <br> Recap | 
 | 3 |         | PM | [Homework 3](https://github.com/adstriegel/cse34468-su24/blob/main/hw/hw-03/hw3.md) | | 
 | 3 | 06-12 W | 1 | Serial Communications | Slides <br> Recap | 
-| 3 |         | 2 | Lab 4 - Temperature, Motion, Web | | 
+| 3 |         | 2 | Lab 3 - Smart Stoplight | | 
 | 3 |         | 3 | Reliable Communications (CAN) | Slides <br> Recap | 
 | 3 |         | Quiz | [Week 3 Quiz - Networking, Communications](https://canvas.nd.edu/courses/92659/quizzes/52580) | |
 | 4 | | | **Week 4 - Cloud, Storage, Energy** | | 
 | 4 | 06-17 M | 1 | IoT and the Cloud | Slides <br> Recap | 
-| 4 |         | 2 | Lab 5 - Digital Thermostat | | 
+| 4 |         | 2 | Lab 4 - Digital Thermostat | | 
 | 4 |         | 3 | Storage - RAM, ROM, Flash | Slides <br> Recap | 
 | 4 |         | PM | Homework 4 | | 
 | 4 | 06-19 W | 1 | Pitch - Final Project Concepts | | 
-| 4 |         | 2 | Lab 5 - Digital Thermostat | | 
+| 4 |         | 2 | Lab 4 - Digital Thermostat | | 
 | 4 |         | 3 | Energy - Batteries, Power | | 
 | 4 |         | Quiz | Week 4 Quiz - IoT, Storage, Energy | |
 | 5 | | | **Week 5 - Low-Power, Design Considerations** | | 
 | 5 | 06-24 M | 1 | Low-Power Wireless - Bluetooth, Zigbee | | 
-| 5 |         | 2 | Lab 6 - Motor Control | | 
+| 5 |         | 2 | Lab 5 - Web + Motion | | 
 | 5 |         | 3 | Display Technologies | |
 | 5 |         | PM | No Homework - Final Project Work | |  
 | 5 | 06-26 W | 1 | Microcontroller Explorations | | 
@@ -73,9 +73,8 @@ The listed schedule is tenative and may be modulated depending on how the semest
 | 1 | Lab 1 - SSH, Python, Turning the Crank | 05-27 | Individual | 
 | 2 | Lab 2 - Web Fetch, Statistics with Python | 05-29 | Individual | 
 | 3, 4 | Lab 3 - Stoplight Controller | 06-03, 06-05, 06-10 | Group |
-| 4 | Lab 4 - Temperature, Motion, Web | 06-12 | Group |
-| 5 | Lab 5 - Digital Thermostat | 06-17, 06-19 | Group |
-| 6 | Lab 6 - Motor Control | 06-24 | Group |
+| 5 | Lab 4 - Digital Thermostat | 06-17, 06-19 | Group |
+| 6 | Lab 5 - Web / Motion | 06-24 | Group |
 
 ## Homework / Out of Class Work
 
