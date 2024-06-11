@@ -30,12 +30,12 @@ The listed schedule is tenative and may be modulated depending on how the semest
 | 2 |         | Quiz | [Week 2 Quiz - Input / Output](https://canvas.nd.edu/courses/92659/quizzes/52524) | |
 | 2 |         | Sat+Sun | Excursion to Dresden | | 
 | 3 | | | **Week 3 - Communication Fundamentals** | | 
-| 3 | 06-10 M | 1 | Motion and Magnetics, Networking Basics | Slides <br> Recap | 
+| 3 | 06-10 M | 1 | Motion and Magnetics, Networking Basics | [Slides](https://canvas.nd.edu/files/3750965/download?download_frd=1) <br> [Recap](https://github.com/adstriegel/cse34468-su24/blob/main/lectures/lecture-05/recap.md) | 
 | 3 |         | 2 | [Lab 3 - Stoplight](https://github.com/adstriegel/cse34468-su24/blob/main/hw/lab-03/lab3.md) | | 
-| 3 |         | 3 | Networking (cont'd) <br> Wireless - WiFi, Cellular | Slides <br> Recap | 
+| 3 |         | 3 | Networking (cont'd) | [Slides](https://canvas.nd.edu/files/3750965/download?download_frd=1) <br> [Recap](https://github.com/adstriegel/cse34468-su24/blob/main/lectures/lecture-05/recap.md) | 
 | 3 |         | PM | [Homework 3](https://github.com/adstriegel/cse34468-su24/blob/main/hw/hw-03/hw3.md) | | 
-| 3 | 06-12 W | 1 | Serial Communications | Slides <br> Recap | 
-| 3 |         | 2 | Lab 3 - Smart Stoplight | | 
+| 3 | 06-12 W | 1 | Wireless <br> Serial Communications | Slides <br> Recap | 
+| 3 |         | 2 | [Lab 3 - Stoplight](https://github.com/adstriegel/cse34468-su24/blob/main/hw/lab-03/lab3.md) | | 
 | 3 |         | 3 | Reliable Communications (CAN) | Slides <br> Recap | 
 | 3 |         | Quiz | [Week 3 Quiz - Networking, Communications](https://canvas.nd.edu/courses/92659/quizzes/52580) | |
 | 4 | | | **Week 4 - Cloud, Storage, Energy** | | 
