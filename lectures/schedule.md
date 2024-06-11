@@ -49,7 +49,7 @@ The listed schedule is tenative and may be modulated depending on how the semest
 | 4 |         | Quiz | Week 4 Quiz - IoT, Storage, Energy | |
 | 5 | | | **Week 5 - Low-Power, Design Considerations** | | 
 | 5 | 06-24 M | 1 | Low-Power Wireless - Bluetooth, Zigbee | | 
-| 5 |         | 2 | Lab 5 - Web + Motion | | 
+| 5 |         | 2 | Lab 5 - Motion + Web + GPIO | | 
 | 5 |         | 3 | Display Technologies | |
 | 5 |         | PM | No Homework - Final Project Work | |  
 | 5 | 06-26 W | 1 | Microcontroller Explorations | | 
