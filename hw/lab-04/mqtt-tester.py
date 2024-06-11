@@ -17,7 +17,10 @@ while True:
     # Modify this
 
     print('Sending a MQTT message!')
-    mqttnd.send_mqtt(theClient, "cse34468-su24/yourgroupname/lab-04/info/", "I have been alive for " + str(TheCount) + " seconds")
+
+    theMessage = '{ "Name" : "I am group yourgroupname" }'
+
+    mqttnd.send_mqtt(theClient, "cse34468-su24/yourgroupname/lab-04/info/", theMessage)
     TheCount += 1
 
 

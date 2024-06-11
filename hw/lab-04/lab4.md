@@ -2,11 +2,11 @@
 
 | **Aspect** | **Information** |
 | --- | --- | 
-| **Assigned** | Monday, June 19th - Block 2 | 
-| **Due** | Monday, June 26th - 5 PM (two class periods to work on it) | 
+| **Assigned** | Monday, June 17th - Block 2 | 
+| **Due** | Monday, June 24th - 5 PM (two class periods to work on it) | 
 | **Team** | May be done in a group of up to three |  
 | **Canvas Link** | Lab 04 | 
-| **Points** | 45 points | 
+| **Points** | 38 points | 
 
 ## Overview
 
@@ -50,6 +50,8 @@ Test your code using the Sense HAT emulator.  Note that you will need to use the
 
 ## Part 2 - Extending MQTT
 
+**When copying over the mqtt-config.json file, make sure to define a `.gitignore` file that does not add the `mqtt-config.json` file.  You can copy over the `.gitignore` file in the class repository for Lab 4 as a reference**
+
 Mimicking what we did in Lab 3, add in a JSON message that is sent each time that your loop executes if any of the values have changed. Include the temperature, humidity, and the settings for the respective heating and cooling elements (on or off) only if the temperature or humidity has changed.  The JSON should only include the units in Celsius (do not write C, just known that the number is in Celsius). 
 
 You should publish your information to the following topic:
@@ -66,19 +68,26 @@ For the last part, we will be parsing the MQTT values with a *client* and then d
 
 Install `flask` using a similar approach to what you did with Lab 3 and `paho-mqtt`.  
 
-
 1. Modify the `flask-server.py` code to pick a port (see instructions) in the file and also to pick the correct MQTT topic. 
+2. Modify the `mqtt-tester.py` code to use the appropriate topic with your group name.
 2. Log in with two separate `ssh` sessions to your choice of the Raspberry Pi. This can be the same Raspberry Pi where you are running your other code or it can be a different Raspberry Pi. 
 3. On one of the sessions, run the `flask-server.py` code. 
-4. 
+4. On the other session, run the `mqtt-tester.py` code.
+5. Browse to the Raspberry Pi using the IP address of the Pi together with the port number, e.g. `http://192.168.0.125:31001` picking the correct Raspberry Pi where you code is running and the right port number. You can do this from your phone or your laptop provided that you are on the `cse34468` SSID.
+6. Try browsing to `http://192.168.0.125:31001/thermostat` and `http://192.168.0.125:31001/thermostat` also correcting for the right port number and the right Raspberry Pi. 
 
+The code as provided in `mqtt-tester.py` pushes a piece of JSON information to the MQTT server at the specified topic.  The `flask-server.py` code waits for messages at the specified topic and then returns information based on the most recent JSON.  
 
+Provided that your code is sending a valid JSON, you no longer need to use `mqtt-tester.py`.  However, you will need to modify the `flask-server.py` code to *beautify* what is reported via the `/thermostat` URI.  Using a bit of HTML, create an appropriate string that looks reasonable containing all relevant information for the thermostat in a human-accessible format (e.g. not a JSON).  
+
+**Task**: Complete this step and then demonstrate a web browser on your laptop (or phone) browsing to that particular page to Prof. Striegel.  
 
 ## End Result
 
 Your GitHub submission will have a several files in the `hw/lab-04` sub-directory for one of the group members. Your code must have the following files to receive credit for the demos in the repository of the primary submitter:
 
 * `/hw/lab-04/thermostat.py`
+* `/hw/lab-04/flask-server.py`
 
 If you are not submitting for your repository but are part of a different team, submit on Canvas the name of the person who is submitting for your group.
 
@@ -86,17 +95,14 @@ If you are not submitting for your repository but are part of a different team, 
 
 The lab is worth a total of 45 points as described below:
 
-* 20 pts - Successful stoplight demonstration to Prof. Striegel at either 1x or 2x speed
-* 12 pts - Demonstration of MQTT information via app on phone or laptop
-* 1 pt - Files are in the `lab-03` folder in your repository
+* 30 pts - Successful demonstrations for Prof. Striegel of Parts 1 and 3 (15 pts each)
+* 1 pt - Files are in the `lab-04` folder in your repository
 * 1 pt - Files are named correctly
-* 2 pt - Commit messages start with `lab-03`
-   * This will be strictly enforced now.  At worst case, at a line to your code and then add in an additional comment.  
+* 2 pt - Commit messages start with `lab-04`
 * 1 pt - Correct hash submitted via Canvas or identification of group member name
 * 3 pts - Code is reasonably commented and formatted with appropriate variable names
-* 5 pts - Reflect / consider advanced uses of the stoplight information
 
-The lab is due by Monday afternoon on June 10th at 5 PM. 
+The lab is due by Monday afternoon on June 24 at 5 PM. 
 
 
 

@@ -4,6 +4,7 @@
 #   Look at how we installed MQTT in Lab 3
 from flask import Flask
 import mqtt_link as mqttnd
+import json
 
 # The instance of flask application is the name of our Python file
 app = Flask(__name__)
@@ -38,7 +39,7 @@ def do_thermo_info():
     return str(theWebString)
 
 @app.route("/thermostat/json")
-def do_thermo_info():
+def do_thermo_info_json():
     global theTemperatureInfo
 
     return str(theTemperatureInfo)
@@ -66,7 +67,7 @@ def parse_message (client, userdata, message):
     theJSON = json.loads(message.payload.decode("utf-8"))
 
     # You can remove this if you want to later
-    print('Got a JSON: ' + theJSON)
+    print('Got a JSON: ' + str(theJSON))
     
     # Put the JSON into the global variable
     theTemperatureInfo = theJSON
@@ -93,9 +94,9 @@ if __name__ == '__main__':
     theClient.subscribe('cse34468-su24/yourgroupname/lab-04/info/')
     theClient.on_message = parse_message
 
-    theClient.loop_forever()
+    theClient.loop_start()
 
-	app.run(port=FlaskPort)
-
+    print('The flask server is running on port ' + str(FlaskPort))
+    app.run(port=FlaskPort)
 
 
