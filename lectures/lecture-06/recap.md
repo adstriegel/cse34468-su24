@@ -1,5 +1,7 @@
 # Recap - Topics Covered - Lecture 6
 
+[Link to Slides](https://canvas.nd.edu/files/3752522/download?download_frd=1)
+
 ## Block 1 
 
 * What is HTTP? What is REST?
