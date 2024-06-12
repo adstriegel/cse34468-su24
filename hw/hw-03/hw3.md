@@ -22,9 +22,9 @@ Suppose we have the following setup where a pressure sensitive strip (e.g. a [so
 
 For the respective key parameters of the device and the A/D, identify the following properties:
 
-* The minimum, maximum, range, and step size of the digital value from the A/D
-* The minimum, maximum, range, and step size of the digital value from the resistance strip
-* The minimum, maximum, range, and step size of the digital value from the distance
+* The minimum, maximum, range, and step size of the digital value from the A/D measurement
+* The minimum, maximum, range, and step size of the analog value from the resistance strip measurement
+* The minimum, maximum, range, and step size of the analog value from the distance measurement
 
 ## Question 2 - 4 pts
 
