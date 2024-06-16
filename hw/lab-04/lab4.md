@@ -20,12 +20,13 @@ Your code should provide the following properties:
 
 * **Setpoint-based control:** Your thermostat should activate either the heat or cooling functions any time the temperature is more than 1 C from the set-point.  
    * The intensity of the response should vary based on the gap away from the setpoint. The intensity of the response should vary between 25% to 100% as the distance from the setpoint varies between 1 to 5 degrees away. If the setpoint is more than 5 degrees away, it should be at 100%.   
+   * To start, leave the LEDs at 100% and vary the intensity once you have it working. 
 
 * **Control LEDs:** The bottom row will be used to emulate digital output.  The following LEDs should be used either at the top row or at the bottom row (your choice):
    * Heating – Column 0: This LED should vary between 25 to 100% intensity for Red to mimic the intensity of the heating control.  
    * Cooling – Column 1: This LED should vary between 25 to 100% intensity for Blue to mimic the intensity of the cooling control.
    * Unused – Column 2
-   * Fan – Column 3: This LED should vary between 25% and 100% when on.  You should use Green for the fan to differentiate it versus heating and cooling.
+   * Fan – Column 3: This LED should vary between 25% and 100% when on.  You should use Yellow for the fan to differentiate it versus heating and cooling.
    * Unused – Columns 4-6
    * Power – Column 7: This LED should be lit to denote that your code is running and should stay continuously on.
    * Each of these LEDs are excellent outputs to put into a function, e.g. `setHeatingLED`. 
