@@ -5,7 +5,7 @@
 | **Assigned** | Monday, June 17th | 
 | **Due** | Wednesday, June 19th - 11 AM  (prior to start of Block 3) | 
 | **Team** | May be done in a group of up to three |  
-| **Canvas Link** | Final Project Pitch | 
+| **Canvas Link** | [Final Project Pitch](https://canvas.nd.edu/courses/92659/assignments/274666) | 
 | **Points** | 16 points | 
 
 For your final project pitch, the goal will be to capture the following in a short slide deck (3-5 slides):
