@@ -5,7 +5,7 @@
 | **Assigned** | Monday, June 17th - Afternoon | 
 | **Due** | Monday, June 24th - 5 PM | 
 | **Team** | To be done individually |  
-| **Canvas Link** | Homework 4 | 
+| **Canvas Link** | [Homework 4](https://canvas.nd.edu/courses/92659/assignments/274664) | 
 | **Points** | 22 points | 
 
 ## Question 1 - 2 points
