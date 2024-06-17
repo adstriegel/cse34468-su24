@@ -28,7 +28,7 @@ Your code should provide the following properties:
    * Unused – Column 2
    * Fan – Column 3: This LED should vary between 25% and 100% when on.  You should use Yellow for the fan to differentiate it versus heating and cooling.
    * Unused – Columns 4-6
-   * Power – Column 7: This LED should be lit to denote that your code is running and should stay continuously on.
+   * Power – Column 7: This LED should be lit to denote that your code is running and should stay continuously on. You should use Green for the power LED.  
    * Each of these LEDs are excellent outputs to put into a function, e.g. `setHeatingLED`. 
 
 * **Display:** You should display either the current temperature or the current setpoint subject to what the user is currently doing.  You may either use the built-in libraries or your own custom display approach provided that the bottom row stays preserved (see earlier).  
