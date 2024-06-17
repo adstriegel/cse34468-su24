@@ -30,6 +30,12 @@ For the respective key parameters of the device and the A/D, identify the follow
 
 Write a function named `getDistance` that gets the digital A/D value via function named `readADC1`.  Return the distance in centimeters that is registered by the pressure strip using what you derived in Question 1.
 
+You do not need to write `readADC1`, you will call it by writing:
+
+```
+theDigitalValue = readADC1()
+```
+
 ## Question 3 - 4 pts
 
 Recall the information at the following URL from Homework 2:
