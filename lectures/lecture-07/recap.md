@@ -1,6 +1,6 @@
 # Recap - Topics Covered - Lecture 7
 
-Link to Slides
+[Link to Slides](https://canvas.nd.edu/files/3757912/download?download_frd=1)
 
 ## Block 1 
 

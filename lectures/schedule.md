@@ -39,17 +39,17 @@ The listed schedule is tenative and may be modulated depending on how the semest
 | 3 |         | 3 | Networking, Wireless) | [Slides](https://canvas.nd.edu/files/3752522/download?download_frd=1) <br> [Recap](https://github.com/adstriegel/cse34468-su24/blob/main/lectures/lecture-06/recap.md) | 
 | 3 |         | Quiz | [Week 3 Quiz - Networking, Communications](https://canvas.nd.edu/courses/92659/quizzes/52580) | |
 | 4 | | | **Week 4 - Cloud, Storage, Energy** | | 
-| 4 | 06-17 M | 1 | Wireless Comms <br> Serial <br> Reliable Comms | Slides <br> Recap | 
-| 4 |         | 2 | Lab 4 - Digital Thermostat | | 
-| 4 |         | 3 | IoT and the Cloud <br> Storage - RAM, ROM, Flash | Slides <br> Recap | 
-| 4 |         | PM | Homework 4 | | 
-| 4 | 06-19 W | 1 | Pitch - Final Project Concepts | | 
-| 4 |         | 2 | Lab 4 - Digital Thermostat | | 
-| 4 |         | 3 | Energy - Batteries, Power | | 
-| 4 |         | Quiz | Week 4 Quiz - IoT, Storage, Energy | |
+| 4 | 06-17 M | 1 | Wireless Comms <br> Serial <br> Reliable Comms | [Slides](https://canvas.nd.edu/files/3757912/download?download_frd=1) <br> [Recap](https://github.com/adstriegel/cse34468-su24/blob/main/lectures/lecture-07/recap.md) | 
+| 4 |         | 2 | [Lab 4 - Digital Thermostat](https://github.com/adstriegel/cse34468-su24/blob/main/hw/lab-04/lab4.md) | | 
+| 4 |         | 3 | Wireless, Serial, Reliable Serial | [Slides](https://canvas.nd.edu/files/3757912/download?download_frd=1) <br> [Recap](https://github.com/adstriegel/cse34468-su24/blob/main/lectures/lecture-07/recap.md) | 
+| 4 |         | PM | [Homework 4](https://canvas.nd.edu/courses/92659/assignments/274664) | | 
+| 4 | 06-19 W | 1 | Reliable Serial, Storage <br> IoT and the Cloud | | 
+| 4 |         | 2 | [Lab 4 - Digital Thermostat](https://github.com/adstriegel/cse34468-su24/blob/main/hw/lab-04/lab4.md) | | 
+| 4 |         | 3 | Final Project Pitch | | 
+| 4 |         | Quiz | [Week 4 Quiz - Wireless, Serial, Storage](https://canvas.nd.edu/courses/92659/quizzes/52774) | |
 | 5 | | | **Week 5 - Low-Power, Design Considerations** | | 
-| 5 | 06-24 M | 1 | Low-Power Wireless - Bluetooth, Zigbee | | 
-| 5 |         | 2 | Lab 5 - Motion + Web + GPIO | | 
+| 5 | 06-24 M | 1 | Energy - Batteries, Power <br> Low-Power Wireless - Bluetooth, Zigbee | | 
+| 5 |         | 2 | [Lab 4 - Digital Thermostat](https://github.com/adstriegel/cse34468-su24/blob/main/hw/lab-04/lab4.md) | | 
 | 5 |         | 3 | Display Technologies | |
 | 5 |         | PM | No Homework - Final Project Work | |  
 | 5 | 06-26 W | 1 | Microcontroller Explorations | | 
@@ -72,9 +72,8 @@ The listed schedule is tenative and may be modulated depending on how the semest
 |---|---|---|---| 
 | 1 | Lab 1 - SSH, Python, Turning the Crank | 05-27 | Individual | 
 | 2 | Lab 2 - Web Fetch, Statistics with Python | 05-29 | Individual | 
-| 3, 4 | Lab 3 - Stoplight Controller | 06-03, 06-05, 06-10 | Group |
-| 5 | Lab 4 - Digital Thermostat | 06-17, 06-19 | Group |
-| 6 | Lab 5 - Web / Motion | 06-24 | Group |
+| 3 | Lab 3 - Stoplight Controller | 06-03, 06-05, 06-10 | Group |
+| 4 | Lab 4 - Digital Thermostat | 06-17, 06-19, 06-24 | Group |
 
 ## Homework / Out of Class Work
 
@@ -83,7 +82,7 @@ The listed schedule is tenative and may be modulated depending on how the semest
 | 1 | Intro - Python, Web Fetch, Design Thinking | 05-27 | 06-03 | 
 | 2 | Digital Input / Output, PWM | 06-03 | 06-10 | 
 | 3 | A/Ds, Communications, Final Project Iteration | 06-10 | 06-17 | 
-| 4 | Design Considerations - IoT | 06-17 | 06-24 | 
+| 4 | [Serial, Communications](https://canvas.nd.edu/courses/92659/assignments/274664) | 06-17 | 06-24 | 
 | FPP | Final Project Pitch  | 06-10 | 06-19 | 
 | FPV | Final Project Video  | | 07-03 - Start of Class |  
 | FPSD | Final Project Supplementary Documentation | | 07-03 - Start of Class   |  
