@@ -25,6 +25,10 @@ In your apartment, determine the various settings as received by DHCP.  Report t
 * Gateway / router
 * DNS server
 
+To get the information on Windows, go to the command prompt (run `command` via the search bar) and run `ipconfig`.
+
+To get the information on Mac, you can also get the information by running `ifconfig` on the Terminal.  
+
 ## Question 4 - 5 points
 
 Suppose we have a 19" tire (e.g. diameter) on a car with two magnets mounted at points equidistant from each other at the edge of the inner hub of the wheel. A hall sensor is mounted off of the wheel in order to detect wheel rotations.  
