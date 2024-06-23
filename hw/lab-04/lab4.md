@@ -3,7 +3,7 @@
 | **Aspect** | **Information** |
 | --- | --- | 
 | **Assigned** | Monday, June 17th - Block 2 | 
-| **Due** | Monday, June 24th - 5 PM (two class periods to work on it) | 
+| **Due** | Monday, July 1st - 5 PM (three or four class periods to work on it) | 
 | **Team** | May be done in a group of up to three |  
 | **Canvas Link** | Lab 04 | 
 | **Points** | 38 points | 
@@ -103,7 +103,7 @@ The lab is worth a total of 45 points as described below:
 * 1 pt - Correct hash submitted via Canvas or identification of group member name
 * 3 pts - Code is reasonably commented and formatted with appropriate variable names
 
-The lab is due by Monday afternoon on June 24 at 5 PM. 
+The lab is due by Monday afternoon on July 1st at 5 PM. 
 
 
 
