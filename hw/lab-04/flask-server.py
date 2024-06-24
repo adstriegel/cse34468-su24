@@ -64,13 +64,19 @@ def parse_message (client, userdata, message):
     global theTemperatureInfo
 
     #global messages
-    m="message received  "  ,str(message.payload.decode("utf-8"))
+    try:
+        m="message received  "  ,str(message.payload.decode("utf-8"))
 
-    # Turn this into a JSON
-    theJSON = json.loads(message.payload.decode("utf-8"))
+        # Turn this into a JSON
+        theJSON = json.loads(message.payload.decode("utf-8"))
 
-    # You can remove this if you want to later
-    print('Got a JSON: ' + str(theJSON))
+        # You can remove this if you want to later
+        print('Got a JSON: ' + str(theJSON))
+    except Exception as e:
+        print('Issue with the JSON seen - catching it!')
+        print('Exception was ' + e)
+        print('Message was ' + m)
+
     
     # Put the JSON into the global variable
     theTemperatureInfo = theJSON
