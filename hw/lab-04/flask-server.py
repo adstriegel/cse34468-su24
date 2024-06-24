@@ -50,8 +50,9 @@ def do_thermo_info_json():
 #  for the lab
 FlaskPort = 30000 + 1001
 
-# Modify this for the Rasbperry Pi that you are running on
-PiHost = '192.168.0.125'
+# If not responding, modify this to be the IP address of your
+# Raspberry Pi where you are running your web server
+PiHost = '0.0.0.0'
 
 # Parse a MQTT message
 #
@@ -72,15 +73,18 @@ def parse_message (client, userdata, message):
 
         # You can remove this if you want to later
         print('Got a JSON: ' + str(theJSON))
+
+        # Put the JSON into the global variable
+        theTemperatureInfo = theJSON
+
     except Exception as e:
         print('Issue with the JSON seen - catching it!')
-        print('Exception was ' + e)
-        print('Message was ' + m)
+        print('Exception was ' + str(e))
+        print('Message was ' + str(message.payload))
+
+        theTemperatureInfo = { 'Error' : 'Unable to process MQTT message'}
 
     
-    # Put the JSON into the global variable
-    theTemperatureInfo = theJSON
-
 
 # Start up the flask server and have it be accessible at:
 #
@@ -100,7 +104,7 @@ if __name__ == '__main__':
     theClient = mqttnd.connect_mqtt()
 
     # Change this code to subscribe to your group's topic
-    theClient.subscribe('cse34468-su24/yourgroupname/lab-04/info/')
+    theClient.subscribe('cse34468-su24/yourgroupname/lab-04/otherinfo/')
     theClient.on_message = parse_message
 
     theClient.loop_start()
