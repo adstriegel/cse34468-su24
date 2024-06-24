@@ -72,6 +72,8 @@ Install `flask` using a similar approach to what you did with Lab 3 and `paho-mq
 1. Modify the `flask-server.py` code to pick a port (see instructions) in the file and also to pick the correct MQTT topic. 
 2. Modify the `mqtt-tester.py` code to use the appropriate topic with your group name.
 2. Log in with two separate `ssh` sessions to your choice of the Raspberry Pi. This can be the same Raspberry Pi where you are running your other code or it can be a different Raspberry Pi. 
+3. Install `ufw` via `sudo apt-get install ufw`.  Enable it via `sudo ufw enable`.
+4. Allow your port that you will be using via `sudo ufw allow XXXX` where `XXXX` is the port you want to use.
 3. On one of the sessions, run the `flask-server.py` code. 
 4. On the other session, run the `mqtt-tester.py` code.
 5. Browse to the Raspberry Pi using the IP address of the Pi together with the port number, e.g. `http://192.168.0.125:31001` picking the correct Raspberry Pi where you code is running and the right port number. You can do this from your phone or your laptop provided that you are on the `cse34468` SSID.
