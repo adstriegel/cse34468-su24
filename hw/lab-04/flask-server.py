@@ -50,6 +50,9 @@ def do_thermo_info_json():
 #  for the lab
 FlaskPort = 30000 + 1001
 
+# Modify this for the Rasbperry Pi that you are running on
+PiHost = '192.168.0.125'
+
 # Parse a MQTT message
 #
 #  client : the MQTT client
@@ -97,6 +100,7 @@ if __name__ == '__main__':
     theClient.loop_start()
 
     print('The flask server is running on port ' + str(FlaskPort))
-    app.run(port=FlaskPort)
+
+    app.run(port=FlaskPort, host=PiHost)
 
 
