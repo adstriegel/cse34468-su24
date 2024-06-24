@@ -48,11 +48,11 @@ The listed schedule is tenative and may be modulated depending on how the semest
 | 4 |         | 3 | Final Project Pitch | | 
 | 4 |         | Quiz | [Week 4 Quiz - Wireless, Serial, Storage](https://canvas.nd.edu/courses/92659/quizzes/52774) | |
 | 5 | | | **Week 5 - Low-Power, Design Considerations** | | 
-| 5 | 06-24 M | 1 | IoT / Cloud, Energy - Batteries, Power <br> Low-Power Wireless - Bluetooth, Zigbee | Slides <br> Recap | 
+| 5 | 06-24 M | 1 | IoT / Cloud, Energy - Batteries, Power <br> Low-Power Wireless - Bluetooth, Zigbee | [Slides](https://canvas.nd.edu/files/3767738/download?download_frd=1) <br> Recap | 
 | 5 |         | 2 | [Lab 4 - Digital Thermostat](https://github.com/adstriegel/cse34468-su24/blob/main/hw/lab-04/lab4.md) | | 
-| 5 |         | 3 | Low-Power Wireless <br> Display Technologies | Slides <br> Recap  |
+| 5 |         | 3 | Low-Power Wireless <br> Display Technologies | [Slides](https://canvas.nd.edu/files/3767738/download?download_frd=1) <br> Recap  |
 | 5 |         | PM | No Homework - Final Project Work | |  
-| 5 | 06-26 W | 1 | Display (cont'd) <br> Microcontroller Explorations | Slides <br> Recap  | 
+| 5 | 06-26 W | 1 | Displays (cont'd) <br> Microcontroller Explorations | Slides <br> Recap  | 
 | 5 |         | 2 | [Lab 4 - Digital Thermostat](https://github.com/adstriegel/cse34468-su24/blob/main/hw/lab-04/lab4.md) <br> Work - Final Project | | 
 | 5 |         | 3 | Reliable Design | Slides <br> Recap | 
 | 5 |         | Quiz | Week 5 - Low-Power, Displays, Microcontrollers | |
