@@ -113,4 +113,7 @@ if __name__ == '__main__':
 
     app.run(port=FlaskPort, host=PiHost)
 
+    # Or do the following
+    #app.run(port=FlaskPort, host='0.0.0.0')
+
 
