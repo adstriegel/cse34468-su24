@@ -52,13 +52,13 @@ The listed schedule is tenative and may be modulated depending on how the semest
 | 5 |         | 2 | [Lab 4 - Digital Thermostat](https://github.com/adstriegel/cse34468-su24/blob/main/hw/lab-04/lab4.md) | | 
 | 5 |         | 3 | Low-Power Wireless <br> Display Technologies | [Slides](https://canvas.nd.edu/files/3767738/download?download_frd=1) <br> Recap  |
 | 5 |         | PM | No Homework - Final Project Work | |  
-| 5 | 06-26 W | 1 | Displays (cont'd) <br> Microcontroller Explorations | Slides <br> Recap  | 
+| 5 | 06-26 W | 1 | Displays (cont'd) <br> Microcontroller Explorations | [Slides](https://canvas.nd.edu/files/3769786/download?download_frd=1) <br> Recap  | 
 | 5 |         | 2 | [Lab 4 - Digital Thermostat](https://github.com/adstriegel/cse34468-su24/blob/main/hw/lab-04/lab4.md) <br> Work - Final Project | | 
-| 5 |         | 3 | Reliable Design | Slides <br> Recap | 
+| 5 |         | 3 | Reliable Design | [Slides](https://canvas.nd.edu/files/3769786/download?download_frd=1) <br> [Recap](https://github.com/adstriegel/cse34468-su24/blob/main/lectures/lecture-10/recap.md) | 
 | 5 |         | Quiz | Week 5 - Low-Power, Displays, Microcontrollers | |
 | 5 |         | F+Sat | Excursion to Hamburg | | 
 | 6 | | | **Week 6 - Final Project, Exams** | | 
-| 6 | 07-01 M | 1 | Security, Privacy | Slides <br> Recap | 
+| 6 | 07-01 M | 1 | Security, Privacy | [Slides](https://canvas.nd.edu/files/3777725/download?download_frd=1) <br> Recap | 
 | 6 |         | 2 | Lab Practical | Canvas - Link | 
 | 6 |         | 3 | Work Time - Final Project Video | | 
 | 6 |         | PM | No Homework Assigned | | 

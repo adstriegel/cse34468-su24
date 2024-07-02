@@ -1,6 +1,6 @@
 # Recap - Topics Covered - Lecture 10
 
-Link to Slides - See Canvas
+[Link to Slides](https://canvas.nd.edu/files/3769786/download?download_frd=1)
 
 ## Block 1
 
